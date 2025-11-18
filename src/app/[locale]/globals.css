@@ -1,0 +1,117 @@
+@import 'tailwindcss';
+@import '@splidejs/react-splide/css';
+
+@layer base {
+	* {
+		color: white;
+	}
+
+	a,
+	img {
+		user-select: none;
+	}
+}
+
+@theme {
+	/* colors */
+	--color-accent-black: #2c2c2c;
+	--color-black80: #5d5d5d;
+
+	/* fonts */
+	--text-34: 34px;
+	--text-30: 30px;
+	--text-28: 28px;
+	--text-24: 24px;
+	--text-22: 22px;
+	--text-20: 20px;
+	--text-18: 18px;
+	--text-14: 14px;
+	--text-12: 12px;
+
+	--spacing-desktop: 1440px;
+}
+
+/* Анимации для модального окна */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes slideUp {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.animate-fadeIn {
+	animation: fadeIn 0.3s ease-out;
+}
+
+.animate-slideUp {
+	animation: slideUp 0.4s ease-out;
+}
+
+@layer components {
+    /* Animated underline link for navbar */
+    .nav-link {
+        position: relative;
+        display: inline-block;
+        transition: color 0.2s ease, transform 0.2s ease;
+    }
+
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        height: 2px;
+        width: 0;
+        background: linear-gradient(90deg, #15AD49 0%, #76F8A2 100%);
+        border-radius: 9999px;
+        transition: width 0.25s ease;
+    }
+
+    .nav-link:hover {
+        transform: translateY(-1px);
+    }
+
+    .nav-link:hover::after {
+        width: 100%;
+    }
+
+    .nav-link:active {
+        transform: translateY(0);
+        opacity: 0.9;
+    }
+
+    /* Gradient button with hover/active lift and glow */
+    .btn-gradient {
+        background: linear-gradient(180deg, #15AD49 0%, #76F8A2 100%);
+        box-shadow: 0 10px 20px -10px rgba(118, 248, 162, 0.45);
+        transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+    }
+
+    .btn-gradient:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 18px 30px -12px rgba(118, 248, 162, 0.55);
+    }
+
+    .btn-gradient:active {
+        transform: translateY(0);
+        filter: saturate(1.1) brightness(0.98);
+    }
+
+    .btn-gradient:focus-visible {
+        outline: 2px solid rgba(118, 248, 162, 0.8);
+        outline-offset: 3px;
+    }
+}

@@ -1,0 +1,76 @@
+{
+	"Contacts": {
+		"nameLabel": "Ism Familiyangiz",
+		"namePlaceholder": "Ismingizni kiriting...",
+		"submit": "Yuborish",
+		"submitPending": "Yuborilmoqda...",
+		"telLabel": "Telefon raqamingiz",
+		"textLabel": "Xabar",
+		"textPlaceholder": "Xabaringizni yozing...",
+		"title": "Kontakt"
+	},
+	"Footer": {
+		"copyright": "Barcha huquqlar himoyalangan"
+	},
+	"Intro": {
+		"description": "EXON — bozor o‘rinlarida savdo bo‘yicha sizning hamkoringiz. Biz biznesning o‘sishiga va yetakchi o‘rinlarni egallashiga yordam beramiz.",
+		"description2": "Biznesning e-commerce’da rivojlanishiga yordam beramiz va O‘zbekistonda kelajak savdo bozorini yaratamiz.",
+		"title": "Biz EXON",
+		"button": "Ariza qoldirish"
+	},
+	"Missions": {
+		"description1": "Marketplace’da tez va to‘liq start. Do‘konni ro‘yxatdan o‘tkazishdan tortib, tovarlarni yuklash, foto, SEO va birinchi sotuvlargacha. Siz darhol savdoni boshlashingiz uchun hammasini tartibli va xatosiz yo‘lga qo‘yamiz.",
+		"description2": "Sotuvlar va samaradorlikning doimiy o‘sishi. Vizual upakovka, reklama, raqobatchilar tahlili va marketing yechimlari. Biz butun jarayonni o‘z zimmamizga olamiz, siz esa rutina emas, biznesingiz bilan shug‘ullanasiz.",
+		"description3": "Sotuvni oshiradigan kartochkalar. Foto, ikki tilli infografika, SEO kalit so‘zlar va raqobatchilar orasidan ajratib ko‘rsatadigan va savdoni oshirishga yordam beradigan tavsif.",
+		"description4": "Sotuvni oshiradigan infografikalarni yaratamiz, ular mahsulotingizni xaridorlar uchun ko‘zga ko‘rinadigan qiladi.",
+		"description5": "Sotuvga undovchi vizual. Aniq, zamonaviy va jozibali suratlar — birinchi qarashda xarid qilish istagini uyg‘otadi.",
+		"description6": "Ma’lumotlarga asoslangan yechimlar. Biz asosiy ko‘rsatkichlarni kuzatamiz, o‘sish nuqtalarini aniqlaymiz va sotuvlarni oshirish uchun aniq qadamlar taklif qilamiz. Shuningdek, chuqur tahlil asosida barcha kategoriyalar va nishalar bo‘yicha raqamlar tahliliga oid tavsiyalar beramiz.",
+		"title": "Bizning xizmatlarimiz",
+		"title1": "Do‘konni noldan ishga tushirish",
+		"title2": "Yuritish va rivojlantirish",
+		"title3": "Mahsulot kartochkasi dizayni",
+		"title4": "Marketplace’larda reklama kampaniyalari",
+		"title5": "Mahsulotlarni fotosuratga olish",
+		"title6": "Analitika va optimallashtirish"
+	},
+	"Nav": {
+		"about": "Biz haqimizda",
+		"contacts": "Kontaktlar",
+		"portfolio": "Portfolio",
+		"services": "Xizmatlar"
+	},
+	"Portfolio": {
+		"next": "Keyingisi",
+		"title": "Bizga ishonch bildirishdi"
+	},
+	"Stats": {
+		"description1": "Magazinlar — bizning to‘liq xizmat ko‘rsatish kompleksimiz ostidagi hamkorlarimiz.",
+		"description2": "Yo‘nalishlar — moda va uslub olamidagi trendlardan tortib zamonaviy texnologiya va elektronikagacha bo‘lgan keng qamrovli sohalar.",
+		"description3": "Buyurtmalar — do‘konlar bilan uyg‘un hamkorligimiz va yo‘lga qo‘yilgan sheriklik munosabatlarimiz natijasi."
+	},
+	"SuccessForm": {
+		"button": "Yopish",
+		"description": "Xabaringiz muvaffaqiyatli yuborildi. Tez orada siz bilan bog'lanamiz!",
+		"title": "Rahmat!"
+	},
+	"Team": {
+		"description": "Biz — marketpleyslarni ichidan yaxshi biladigan, o‘zlari ham yetakchi sotuvchilar bo‘lgan va platformalarni barqaror savdo vositasiga aylantira oladigan mutaxassislar jamoasimiz.",
+		"profDescription1": "Strateg va muzokarachi, o‘zi sotuvchi yo‘lini bosib o‘tgan va amalda nimalar ishlashini biladi.",
+		"profDescription2": "Do‘konning zaif joylarini topadi va ularni o‘sish nuqtalariga aylantiradi.",
+		"profDescription3": "Sotuvlar jarayonini kuzatib boradi, vazifalarni hal qiladi va mijozlar bilan doim aloqada bo‘ladi.",
+		"profDescription4": "Tovarni ajratib ko‘rsatadigan va xaridorlarning e’tiborini tortadigan vizual yaratadi.",
+		"profDescription5": "Birinchi qarashdayoq “Sotib olish” tugmasini bosdiruvchi rakurslarni ushlaydi.",
+		"profDescription6": "Sotuvchi matnlar yozadi va brend tarixini yaratadi.",
+		"profDescription7": "Raqamlarni kuzatadi, o‘sish nuqtalarini topadi va ma’lumotlarga asoslangan qarorlar qabul qilishga yordam beradi.",
+		"profDescription8": "Jarayonlar va muddatlarni nazorat qiladi, hamma narsa rejaga muvofiq ketishini ta’minlaydi.",
+		"profTitle1": "CEO",
+		"profTitle2": "COO",
+		"profTitle3": "Akkaunt-menejerlar",
+		"profTitle4": "Dizaynerlar",
+		"profTitle5": "Fotograf",
+		"profTitle6": "Kopirayterlar",
+		"profTitle7": "Analitiklar",
+		"profTitle8": "Koordinator",
+		"title": "Bizning jamoa"
+	}
+}
