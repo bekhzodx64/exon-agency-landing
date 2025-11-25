@@ -8,7 +8,7 @@ export default function Stats() {
 			<div className='relative gap-5 lg:gap-0 grid lg:grid-cols-3 2xl:bg-gradient-to-b from-transparent to-emerald-500/20 rounded-b-4xl'>
 				<div className='bg-gradient-to-b from-transparent to-emerald-500/20 px-10 pt-2 pb-4 border border-emerald-400 border-t-0 rounded-b-4xl lg:rounded-br-none'>
 					<h3 className='bg-clip-text bg-gradient-to-b from-[#50aa55] to-[#98f5aa] font-bold text-30 text-transparent sm:text-4xl lg:text-5xl'>
-						47+
+						50+
 					</h3>
 					<p className='lg:text-18 text-sm sm:text-base text-balance'>
 						{t('description1')}

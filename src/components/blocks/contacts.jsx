@@ -227,7 +227,7 @@ export default function Contacts() {
 						{t('title')}
 					</h2>
 
-					<div className='flex justify-between mx-auto mb-10 max-w-4xl'>
+					<div className='flex sm:flex-row flex-col justify-between gap-4 mx-auto mb-10 max-w-4xl'>
 						<Link
 							href='tel:+998940120010'
 							className='flex items-center gap-2'
@@ -338,8 +338,7 @@ export default function Contacts() {
 							<div className='space-y-1'>
 								<label className='block'>
 									<p className='mb-2 font-medium text-white/80 text-sm'>
-										1. Что вы хотите продавать? (например: текстиль, косметика,
-										техника, аксессуары и т.д.)
+										1. {t('questionTitle1')}
 									</p>
 									<input
 										type='text'
@@ -349,7 +348,7 @@ export default function Contacts() {
 										className={`bg-[#373737] px-3 py-2 border focus:border-[#76F8A2] rounded-lg focus:outline-none w-full text-white text-sm transition-colors placeholder-white/40 ${
 											errors.product ? 'border-red-500' : 'border-white/20'
 										}`}
-										placeholder='Введите тип товара'
+										placeholder={t('questionTitle1Placeholder')}
 										disabled={isSubmitting}
 									/>
 								</label>
@@ -362,7 +361,7 @@ export default function Contacts() {
 
 							<div className='space-y-1'>
 								<p className='mb-2 font-medium text-white/80 text-sm'>
-									2. Сколько в среднем стоит один ваш товар?
+									2. {t('questionTitle2')}
 								</p>
 
 								<div
@@ -381,7 +380,7 @@ export default function Contacts() {
 											disabled={isSubmitting}
 										/>
 										<span className='text-white/80 text-sm'>
-											Меньше 100 000 сум
+											{t('questionTitle2Option1')}
 										</span>
 									</label>
 									<label className='flex items-center gap-2 hover:bg-white/5 p-2 border border-white/20 rounded-lg transition-colors cursor-pointer'>
@@ -395,7 +394,7 @@ export default function Contacts() {
 											disabled={isSubmitting}
 										/>
 										<span className='text-white/80 text-sm'>
-											100 000 – 500 000 сум
+											{t('questionTitle2Option2')}
 										</span>
 									</label>
 									<label className='flex items-center gap-2 hover:bg-white/5 p-2 border border-white/20 rounded-lg transition-colors cursor-pointer'>
@@ -409,7 +408,7 @@ export default function Contacts() {
 											disabled={isSubmitting}
 										/>
 										<span className='text-white/80 text-sm'>
-											Больше 500 000 сум
+											{t('questionTitle2Option3')}
 										</span>
 									</label>
 								</div>
@@ -422,7 +421,7 @@ export default function Contacts() {
 
 							<div className='space-y-1'>
 								<p className='mb-2 font-medium text-white/80 text-sm'>
-									3. Что вы хотите от маркетплейса?
+									3. {t('questionTitle3')}
 								</p>
 
 								<div
@@ -441,7 +440,7 @@ export default function Contacts() {
 											disabled={isSubmitting}
 										/>
 										<span className='text-white/80 text-sm'>
-											Просто быть там «для галочки»
+											{t('questionTitle3Option1')}
 										</span>
 									</label>
 									<label className='flex items-center gap-2 hover:bg-white/5 p-2 border border-white/20 rounded-lg transition-colors cursor-pointer'>
@@ -455,7 +454,7 @@ export default function Contacts() {
 											disabled={isSubmitting}
 										/>
 										<span className='text-white/80 text-sm'>
-											Получать продажи
+											{t('questionTitle3Option2')}
 										</span>
 									</label>
 									<label className='flex items-center gap-2 hover:bg-white/5 p-2 border border-white/20 rounded-lg transition-colors cursor-pointer'>
@@ -469,7 +468,7 @@ export default function Contacts() {
 											disabled={isSubmitting}
 										/>
 										<span className='text-white/80 text-sm'>
-											Красиво представить бренд
+											{t('questionTitle3Option3')}
 										</span>
 									</label>
 									<label className='flex items-center gap-2 hover:bg-white/5 p-2 border border-white/20 rounded-lg transition-colors cursor-pointer'>
@@ -483,7 +482,7 @@ export default function Contacts() {
 											disabled={isSubmitting}
 										/>
 										<span className='text-white/80 text-sm'>
-											Пока не знаю — хочу консультацию
+											{t('questionTitle3Option4')}
 										</span>
 									</label>
 								</div>

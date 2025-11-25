@@ -11,8 +11,8 @@ export default function TelegramButton() {
 				<Image
 					src='/icons/telegram-icon.svg'
 					alt='telegram'
-					width={48}
-					height={48}
+					width={56}
+					height={56}
 					className='animate-bounce cursor-pointer'
 				/>
 			</Link>

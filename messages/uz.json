@@ -7,15 +7,26 @@
 		"telLabel": "Telefon raqamingiz",
 		"textLabel": "Xabar",
 		"textPlaceholder": "Xabaringizni yozing...",
-		"title": "Kontakt"
+		"title": "Kontaktlar",
+		"questionTitle1": "Nimani sotmoqchisiz? (masalan: tekstil, kosmetika, texnika, aksessuarlar va hokazo)",
+		"questionTitle2": "Bitta tovaringiz o‘rtacha qancha turadi?",
+		"questionTitle3": "Marketpleysdan nimani xohlaysiz?",
+		"questionTitle1Placeholder": "Tovar turini kiriting",
+		"questionTitle2Option1": "100 000 so‘mdan kam",
+		"questionTitle2Option2": "100 000 — 500 000 so‘m",
+		"questionTitle2Option3": "500 000 so‘mdan ko‘p",
+		"questionTitle3Option1": "Shunchaki “bor” bo‘lish uchun",
+		"questionTitle3Option2": "Brendni chiroyli taqdim etish",
+		"questionTitle3Option3": "Sotuvlar olish",
+		"questionTitle3Option4": "Hozir bilmayman — konsultatsiya kerak"
 	},
 	"Footer": {
 		"copyright": "Barcha huquqlar himoyalangan"
 	},
 	"Intro": {
-		"description": "EXON — bozor o‘rinlarida savdo bo‘yicha sizning hamkoringiz. Biz biznesning o‘sishiga va yetakchi o‘rinlarni egallashiga yordam beramiz.",
+		"description": "marketpleyslarda biznesingizni o‘sishiga va yetakchi o‘rinlarni egallashga yordam beramiz.",
 		"description2": "Biznesning e-commerce’da rivojlanishiga yordam beramiz va O‘zbekistonda kelajak savdo bozorini yaratamiz.",
-		"title": "Biz EXON",
+		"title": "EXON — Marketpleys Ekspertlari",
 		"button": "Ariza qoldirish"
 	},
 	"Missions": {
@@ -29,7 +40,7 @@
 		"title1": "Do‘konni noldan ishga tushirish",
 		"title2": "Yuritish va rivojlantirish",
 		"title3": "Mahsulot kartochkasi dizayni",
-		"title4": "Marketplace’larda reklama kampaniyalari",
+		"title4": "Infografika",
 		"title5": "Mahsulotlarni fotosuratga olish",
 		"title6": "Analitika va optimallashtirish"
 	},

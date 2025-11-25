@@ -33,8 +33,8 @@ export default function Intro() {
 				</div>
 
 				<div className='relative flex flex-col justify-start md:justify-center items-center md:min-h-dvh'>
-					<div className='top-1/6 -left-5 absolute flex gap-2'>
-						<div className='relative size-16 aspect-square'>
+					<div className='top-[2%] md:top-1/6 md:-left-5 absolute flex gap-2'>
+						<div className='relative size-7 md:size-16 aspect-square'>
 							<Image
 								src='/markets/uzum.jpg'
 								alt='uzum'
@@ -43,7 +43,7 @@ export default function Intro() {
 							/>
 						</div>
 
-						<div className='relative size-16 aspect-square'>
+						<div className='relative size-7 md:size-16 aspect-square'>
 							<Image
 								src='/markets/yandex.jpg'
 								alt='yandex'
@@ -52,7 +52,7 @@ export default function Intro() {
 							/>
 						</div>
 
-						<div className='relative size-16 aspect-square'>
+						<div className='relative size-7 md:size-16 aspect-square'>
 							<Image
 								src='/markets/wb.jpg'
 								alt='wb'
@@ -62,11 +62,11 @@ export default function Intro() {
 						</div>
 					</div>
 
-					<div className='py-10 max-w-[946px] text-center'>
-						{/* <h1 className='bg-clip-text bg-gradient-to-b from-[#50aa55] to-[#98f5aa] font-bold text-transparent text-2xl sm:text-3xl lg:text-4xl 2xl:text-6xl'>
+					<div className='space-y-5 py-10 text-center'>
+						<h1 className='bg-clip-text bg-gradient-to-b from-[#50aa55] to-[#98f5aa] mx-auto xl:max-w-2xl font-bold text-transparent text-2xl sm:text-4xl md:text-5xl lg:text-6xl'>
 							{t('title')}
-						</h1> */}
-						<p className='max-w-4xl font-bold text-4xl text-balance'>
+						</h1>
+						<p className='mx-auto max-w-xs sm:max-w-md md:max-w-lg font-bold text-xs sm:text-lg text-balance'>
 							{t('description')}
 						</p>
 						{/* <p className='opacity-50 mt-3 md:mt-4 lg:text-20 text-sm sm:text-base md:text-lg text-balance'>

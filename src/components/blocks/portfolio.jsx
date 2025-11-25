@@ -12,7 +12,7 @@ const portfolioProjects = [
 	},
 	{
 		name: 'beshr',
-		logo: '/partners/logo/beshr.png',
+		logo: '/partners/logo/beshr2.png',
 	},
 	{
 		name: 'bimunica',
@@ -32,7 +32,7 @@ const portfolioProjects = [
 	},
 	{
 		name: 'grohe',
-		logo: '/partners/logo/Grohe-logo.png',
+		logo: '/partners/logo/Grohe-logo2.png',
 	},
 	{
 		name: 'hp',
@@ -58,6 +58,14 @@ const portfolioProjects = [
 		name: 'vileda',
 		logo: '/partners/logo/vileda.png',
 	},
+	{
+		name: 'tess',
+		logo: '/partners/logo/tess.png',
+	},
+	{
+		name: 'emerald',
+		logo: '/partners/logo/emerald.png',
+	},
 ]
 
 export default function Portfolio() {
@@ -73,7 +81,7 @@ export default function Portfolio() {
 					{t('title')}
 				</div>
 
-				<div className='place-items-center gap-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
+				<div className='place-items-center gap-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
 					{portfolioProjects.map((project, index) => (
 						<PortfolioCard
 							key={index}

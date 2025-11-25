@@ -31,7 +31,7 @@ export default function Header() {
 					className='inline-block relative w-32 lg:w-[150px] h-14 lg:h-14'
 				>
 					<Image
-						src='/logo.svg'
+						src='/logo.png'
 						alt='logo'
 						fill
 					/>
