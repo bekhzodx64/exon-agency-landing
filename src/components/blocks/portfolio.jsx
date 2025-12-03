@@ -4,67 +4,51 @@ import PortfolioCard from '../shared/portfolio-card'
 const portfolioProjects = [
 	{
 		name: 'babitopia',
-		logo: '/partners/logo/Babitopia.png',
 	},
 	{
 		name: 'bavi',
-		logo: '/partners/logo/Bavi.png',
 	},
 	{
 		name: 'beshr',
-		logo: '/partners/logo/beshr2.png',
 	},
 	{
 		name: 'bimunica',
-		logo: '/partners/logo/Bimunica.png',
 	},
 	{
 		name: 'concept',
-		logo: '/partners/logo/concept.png',
 	},
 	{
 		name: 'deerma',
-		logo: '/partners/logo/Deerma.png',
 	},
 	{
 		name: 'frosch',
-		logo: '/partners/logo/frosch.png',
 	},
 	{
 		name: 'grohe',
-		logo: '/partners/logo/Grohe-logo2.png',
 	},
 	{
 		name: 'hp',
-		logo: '/partners/logo/HP.png',
 	},
 	{
 		name: 'lenovo',
-		logo: '/partners/logo/lenovo.png',
 	},
 	{
 		name: 'lovular',
-		logo: '/partners/logo/lovular.png',
 	},
 	{
 		name: 'panasonic',
-		logo: '/partners/logo/panasonic.png',
 	},
 	{
 		name: 'tefia',
-		logo: '/partners/logo/Tefia.png',
 	},
 	{
 		name: 'vileda',
-		logo: '/partners/logo/vileda.png',
 	},
 	{
 		name: 'tess',
-		logo: '/partners/logo/tess.png',
 	},
 	{
 		name: 'emerald',
-		logo: '/partners/logo/emerald.png',
 	},
 ]
 
