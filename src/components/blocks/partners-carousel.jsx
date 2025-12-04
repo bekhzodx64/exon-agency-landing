@@ -30,29 +30,27 @@ export default function PartnersCarousel() {
 	return (
 		<section className='bg-white/5 mt-5 px-5 border-white/20 border-y'>
 			<div className='relative mx-auto py-5 container'>
-				<div className='top-0 bottom-0 left-0 z-10 absolute bg-gradient-to-l from-transparent to-[#373737] w-1/12 pointer-events-none'></div>
-
 				<Reveal>
 					<Splide
 						options={options}
 						extensions={{ AutoScroll }}
 						className='select-none'
 					>
-						{partners.map((partner) => (
-							<SplideSlide key={partner.id}>
+						{partners.map((partner, index) => (
+							<SplideSlide key={index + partner.name}>
 								<div className='relative min-h-9 aspect-video'>
 									<Image
 										fill
-										src={partner.logo}
+										src={`/partners/${partner.name}.png`}
 										alt={partner.name}
+										draggable={false}
+										className='object-scale-down'
 									/>
 								</div>
 							</SplideSlide>
 						))}
 					</Splide>
 				</Reveal>
-
-				<div className='top-0 right-0 bottom-0 z-10 absolute bg-gradient-to-r from-transparent to-[#373737] w-1/12 pointer-events-none'></div>
 			</div>
 		</section>
 	)
@@ -60,38 +58,51 @@ export default function PartnersCarousel() {
 
 const partners = [
 	{
-		id: 1,
+		name: 'babitopia',
+	},
+	{
+		name: 'bavi',
+	},
+	{
 		name: 'beshr',
-		logo: '/partners/beshr.svg',
 	},
 	{
-		id: 2,
-		name: 'nilson',
-		logo: '/partners/nilson.svg',
+		name: 'bimunica',
 	},
 	{
-		id: 3,
-		name: 'lenovo',
-		logo: '/partners/lenovo.svg',
+		name: 'concept',
 	},
 	{
-		id: 4,
 		name: 'deerma',
-		logo: '/partners/deerma.svg',
 	},
 	{
-		id: 5,
-		name: 'vileda',
-		logo: '/partners/vileda.svg',
+		name: 'frosch',
 	},
 	{
-		id: 6,
+		name: 'grohe',
+	},
+	{
+		name: 'hp',
+	},
+	{
+		name: 'lenovo',
+	},
+	{
+		name: 'lovular',
+	},
+	{
 		name: 'panasonic',
-		logo: '/partners/panasonic.svg',
 	},
 	{
-		id: 7,
-		name: 'bebevit',
-		logo: '/partners/bebevit.svg',
+		name: 'tefia',
+	},
+	{
+		name: 'vileda',
+	},
+	{
+		name: 'tess',
+	},
+	{
+		name: 'emerald',
 	},
 ]

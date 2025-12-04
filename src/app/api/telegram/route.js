@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 
 const BOT_TOKEN = '8341104543:AAEOP8yhbqhmNiJQLw33NZVtxTwBOy5Qewk'
-const CHAT_ID = '-1002504428615'
+const CHAT_ID = '-5094316123'
 
 const priceRanges = {
 	less_100k: 'Меньше 100 000 сум',
