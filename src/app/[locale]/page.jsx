@@ -15,7 +15,7 @@ export default function Home() {
 			<Missions />
 			<Team />
 			<Portfolio />
-			{/* <Contacts /> */}
+			<Contacts />
 		</>
 	)
 }

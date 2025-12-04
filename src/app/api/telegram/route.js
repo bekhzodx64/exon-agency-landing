@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server'
 
-const BOT_TOKEN = '8341104543:AAEOP8yhbqhmNiJQLw33NZVtxTwBOy5Qewk'
+const BOT_TOKEN = '8311834705:AAHtvs9i6CO_J1czaWXmc_u0Kzeax50M_Dw'
 const CHAT_ID = '-5094316123'
 
 const priceRanges = {
